@@ -1,0 +1,29 @@
+USE [master]
+GO
+DROP TABLE [dbo].[pet_procedure]
+GO
+
+USE [AnimalHospital]
+GO
+
+/****** Object:  Table [dbo].[pet_procedure]    Script Date: 6/25/2018 11:29:00 PM ******/
+USE [master]
+GO
+DROP TABLE [dbo].[pet_procedure]
+GO
+
+/****** Object:  Table [dbo].[pet_procedure]    Script Date: 6/25/2018 11:29:00 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[pet_procedure](
+	[procedure_id] [int] NOT NULL,
+	[pet_id] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
